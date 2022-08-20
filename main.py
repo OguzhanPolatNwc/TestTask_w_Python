@@ -21,9 +21,9 @@ while True:
         a.append("-")
     else:
         for i in List:
-            print(i)
+            # print(i)
             if i[0] == input_name:
-                print(i[0])
+                # print(i[0])
                 previous_id = f"Res-{len(List)} ID"
                 a.append(previous_id)
             else:
